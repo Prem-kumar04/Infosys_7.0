@@ -1,0 +1,27 @@
+# Backend environment and secrets
+backend/.env
+backend/.venv/
+backend/__pycache__/
+backend/**/*.py[cod]
+backend/.pytest_cache/
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+
+# Environment and local files
+.env
+*.local
+*.log
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Ignore all environment files, except safe examples
+**/.env
+**/.env.*
+!**/.env.example
